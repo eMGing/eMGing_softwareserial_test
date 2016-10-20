@@ -9,8 +9,8 @@
  puertos Serie de SoftwareSerial, recibe desde SoftwareSerial y lo envía al Serie Hardware.
 
  El cicuíto:
- * RX es el pin digital número 7 (conecta a TX del otro dispositivo)
- * TX es el pin digital número 8 (conecta a RX del otro dispositivo)
+ * RX es el pin digital número 7 del Arduino(conecta a TX del otro dispositivo)
+ * TX es el pin digital número 8 del Arduino(conecta a RX del otro dispositivo)
 
  Nota:
  NO todos los pines del MEGA o MEGA2560 soporta cambio en los pines de interrupción,
@@ -21,7 +21,8 @@
  por lo tanto solo los siguientes pueden utilizarse: RX:
  8, 9, 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI).
 
-
+ Para TX pueden usar cualquier PIN sin problemas.
+ 
  consultas: info@eMGing.com.ar
  www.eMGing.com.ar
 
