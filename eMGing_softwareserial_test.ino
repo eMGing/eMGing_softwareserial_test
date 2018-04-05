@@ -24,7 +24,9 @@
  Para TX pueden usar cualquier PIN sin problemas.
  
  consultas: info@eMGing.com.ar
- www.eMGing.com.ar
+ web: www.eMGing.com.ar
+ FB: @eMGing.com.ar
+ Youtube: https://goo.gl/5QtmC8
 
   */
 #include <SoftwareSerial.h>
