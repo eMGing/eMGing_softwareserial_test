@@ -9,7 +9,7 @@
  puertos Serie de SoftwareSerial, recibe desde SoftwareSerial y lo envía al Serie Hardware.
 
  El cicuíto:
- * RX es el pin digital número 7 del Arduino(conecta a TX del otro dispositivo)
+ * RX es el pin digital número 10 del Arduino(conecta a TX del otro dispositivo)
  * TX es el pin digital número 8 del Arduino(conecta a RX del otro dispositivo)
 
  Nota:
@@ -31,7 +31,7 @@
   */
 #include <SoftwareSerial.h>
 
-SoftwareSerial mySerial(10, 8); // RX, TX
+SoftwareSerial mySerial(8, 10); // RX, TX
 
 void setup() {
   // Abre puerto serial de comunicación y espera a que se abra el puerto
